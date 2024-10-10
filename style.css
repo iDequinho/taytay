@@ -4,10 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Qwitcher+Grypen:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Londrina+Sketch&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 :root{
     --fonte1: verdana, tahoma, sans-serif;
     --fonte2: "Cairo Play", sans-serif;
     --fonte3: "Qwitcher Grypen", cursive;
+    --fonte4: "Londrina Sketch", sans-serif;
 }
 
 *{
@@ -30,7 +33,7 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte4);
     font-variant: small-caps;
     font-size: 10vw;
 }
